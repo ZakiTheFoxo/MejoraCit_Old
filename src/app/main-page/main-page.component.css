@@ -1,0 +1,23 @@
+.status {
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+  width: fit-content;
+  color: #fff;
+  width: 200px;
+  padding: 5px;
+  border: 1;
+}
+
+.reportes {
+  margin-left: 30px;
+}
+
+hr {
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.veces_reportado {
+  margin-left: -20px;
+}

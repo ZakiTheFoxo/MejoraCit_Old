@@ -1,0 +1,28 @@
+<div class="reportes" *ngFor="let reporte of reportes">
+    <h2>
+      {{ reporte.name }}
+    </h2>
+
+    <p>
+        {{ reporte.description }}
+    </p>
+
+    <div *ngIf="reporte.status == 'Registrado'; then thenBlock else elseBlock"></div>
+      <ng-template #thenBlock>
+        <p class="status" style="background: #C20303"> {{ reporte.status }} </p>
+      </ng-template>
+      <ng-template #elseBlock>
+        <p class="status" style="background: #2BD639"> {{ reporte.status }} </p>
+      </ng-template>
+
+    <p class="veces_reportado">
+      Veces reportado: {{ reporte.veces_reportado }}
+    </p>
+    <hr>
+</div>
+
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
