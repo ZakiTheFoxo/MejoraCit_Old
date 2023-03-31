@@ -69,3 +69,33 @@ label {
   display: block;
   text-transform: uppercase;
 }
+
+/* App top Bar */
+.bar {
+  width: 100%;
+  height: 90px;
+  background-color: #083F9D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.bar2 {
+  width: 60%;
+  height: 90px;
+  transform: skewX(-60deg);
+  transform-origin: left top;
+  background-color: #1ABFC2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 10px -3px 10px rgba(0, 0, 0, 0.5);
+}
+
+app-top-bar h2 {
+  position: absolute;
+  color: white;
+  margin: 16px;
+  text-decoration: underline;
+}

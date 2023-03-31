@@ -7,6 +7,10 @@
         {{ reporte.description }}
     </p>
 
+    <div class="mapa">
+      
+    </div>
+
     <div *ngIf="reporte.status == 'Registrado'; then thenBlock else elseBlock"></div>
       <ng-template #thenBlock>
         <p class="status" style="background: #C20303"> {{ reporte.status }} </p>

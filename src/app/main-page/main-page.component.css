@@ -21,3 +21,15 @@ hr {
 .veces_reportado {
   margin-left: -20px;
 }
+
+.mapa{
+  position: absolute;
+  height: 125px;
+  width: 125px;
+  right: 30px;
+  background-color: #fff;
+  transform: translateY(-50%);
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 1px;
+}
