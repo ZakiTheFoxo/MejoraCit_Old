@@ -5,6 +5,7 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; */
 }
 
 body {
@@ -72,16 +73,21 @@ label {
 
 /* App top Bar */
 .bar {
+  position: fixed;
+  top: 0;
   width: 100%;
   height: 90px;
   background-color: #083F9D;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
+  z-index: inherit;
 }
 
 .bar2 {
+  position: fixed;
+  top: 0;
   width: 60%;
   height: 90px;
   transform: skewX(-60deg);
@@ -93,9 +99,44 @@ label {
   box-shadow: 10px -3px 10px rgba(0, 0, 0, 0.5);
 }
 
+.space {
+  height: 90px;
+}
+
 app-top-bar h2 {
   position: absolute;
   color: white;
   margin: 16px;
   text-decoration: underline;
+}
+
+app-top-bar {
+  z-index: 1;
+}
+
+/* Boton reportar */
+.btnregistrar {
+  position: fixed;
+  bottom: 0;
+  left: 2%;
+  right: 2%;
+  width: 96%;
+  height: 60px;
+  background-color: #083F9D;
+  border-radius: 20px 20px 0 0;
+}
+
+.btnregistrar2 h2{
+  position: fixed;
+  color: white;
+  bottom: -15px;
+  width: 92%;
+  right: 4%;
+  left: 4%;
+  height: 55px;
+  background-color: #1ABFC2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
 }

@@ -3,6 +3,8 @@ export interface Reportes {
   name: string;
   type: string;
   description: string;
+  status: string;
+  veces_reportado: number;
 }
 
 export const reportes = [
@@ -23,7 +25,7 @@ export const reportes = [
     veces_reportado: 2
   },
   {
-    id: 2,
+    id: 3,
     name: 'Bache calle 13 pte',
     type: 'Bache',
     description: 'Bache en la calle 13 poniente',
@@ -31,7 +33,7 @@ export const reportes = [
     veces_reportado: 2
   },
   {
-    id: 1,
+    id: 4,
     name: 'Bache calle 5',
     type: 'Bache',
     description: 'Bache en la calle 5 de mayo',
@@ -39,7 +41,7 @@ export const reportes = [
     veces_reportado: 2
   },
   {
-    id: 2,
+    id: 5,
     name: 'Fuga de agua calle Independencia',
     type: 'Fuga',
     description: 'Fuga de agua sin arreglar',
@@ -47,7 +49,7 @@ export const reportes = [
     veces_reportado: 2
   },
   {
-    id: 2,
+    id: 6,
     name: 'Bache calle 13 pte',
     type: 'Bache',
     description: 'Bache en la calle 13 poniente',
