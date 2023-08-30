@@ -12,7 +12,7 @@ export const reportes = [
     id: 1,
     name: 'Bache calle 5',
     type: 'Bache',
-    description: 'Bache en la calle 5 de mayo',
+    description: 'Bache en la calle 5 de mayo, lleva más de 4 semanas que no lo arreglan y ya van varios carror que se les vuelan las llantas',
     status: 'Registrado',
     veces_reportado: 2
   },

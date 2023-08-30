@@ -1,9 +1,15 @@
 <h2>Reporte</h2>
 
 <div *ngIf="reporte">
-  <h3>{{ reporte.name }}</h3>
-  <h4>{{ reporte.type }}</h4>
+  <h1>{{ reporte.name }}</h1>
+  <h4>Categoría: {{ reporte.type }}</h4>
   <p>{{ reporte.description }}</p>
-  <p>{{ reporte.status }}</p>
-  <p>{{ reporte.veces_reportado }}</p>
+  <div *ngIf="reporte.status == 'Registrado'; then thenBlock else elseBlock"></div>
+    <ng-template #thenBlock>
+      <p class="status" style="background: #C20303"> {{ reporte.status }} </p>
+    </ng-template>
+    <ng-template #elseBlock>
+      <p class="status" style="background: #2BD639"> {{ reporte.status }} </p>
+    </ng-template>
+  <p>Veces Reportado: {{ reporte.veces_reportado }}</p>
 </div>

@@ -1,0 +1,28 @@
+<div class="login">
+  <form class="custom-form" method="post">
+    <input
+      type="email"
+      [(ngModel)]="email"
+      name="email"
+      placeholder="Correo"
+      required="required"
+    />
+    <input
+      type="password"
+      [(ngModel)]="password"
+      name="password"
+      placeholder="Contraseña"
+      required="required"
+    />
+    <a [routerLink]="">Olvidé mi contraseña</a>
+    <div class="buttons">
+      <button type="submit" (click)="login()">Iniciar Sesión</button>
+      <button type="submit" class="facebook" (click)="login_facebook()">Iniciar Sesión con Facebook</button>
+      <button type="submit" class="google" (click)="login_google()">Iniciar Sesión con Google</button>
+      <button type="submit" (click)="login_invitado()">Ingresar como Invitado</button>
+      <p>
+        No tienes una cuenta? <a>Regístrate</a>
+      </p>
+    </div>
+  </form>
+</div>

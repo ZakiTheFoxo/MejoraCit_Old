@@ -1,0 +1,50 @@
+/* App top Bar */
+.bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #083F9D;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: inherit;
+}
+
+.bar2 {
+  position: fixed;
+  top: 0;
+  width: 75%;
+  height: 90px;
+  transform: skewX(-60deg);
+  transform-origin: left top;
+  background-color: #1ABFC2;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 10px -3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.space {
+  height: 90px;
+}
+
+app-top-bar h2 {
+  position: absolute;
+  color: white;
+  margin: 16px;
+  text-decoration: underline;
+}
+
+app-top-bar {
+  z-index: 1;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  z-index: 2;
+  padding-left: 16px;
+}

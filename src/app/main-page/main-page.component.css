@@ -1,3 +1,7 @@
+.description {
+  max-width: 75%;
+}
+
 .status {
   border-radius: 5px;
   font-size: 16px;
@@ -33,4 +37,10 @@ hr {
   border-radius: 30px;
   border-width: 1px;
   z-index: 0;
+}
+
+img {
+  width: 123px;
+  height: 123px;
+  border-radius: 30px;
 }

@@ -5,15 +5,15 @@
     <h2>
       {{ reporte.name }}
     </h2>
-    
-    <p>
+
+    <p class="description">
       {{ reporte.description }}
     </p>
-    
+
     <div class="mapa">
-      
+      <img src="assets/mapa.png" alt="">
     </div>
-    
+
     <div *ngIf="reporte.status == 'Registrado'; then thenBlock else elseBlock"></div>
     <ng-template #thenBlock>
       <p class="status" style="background: #C20303"> {{ reporte.status }} </p>
@@ -21,13 +21,14 @@
     <ng-template #elseBlock>
       <p class="status" style="background: #2BD639"> {{ reporte.status }} </p>
     </ng-template>
-    
+
     <p class="veces_reportado">
       Veces reportado: {{ reporte.veces_reportado }}
     </p>
     <hr>
   </a>
 </div>
+<a [routerLink]="['/login']">Login test</a>
 
 <div style="height: 40px;"></div>
 
