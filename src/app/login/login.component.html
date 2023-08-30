@@ -21,7 +21,7 @@
       <button type="submit" class="google" (click)="login_google()">Iniciar Sesión con Google</button>
       <button type="submit" (click)="login_invitado()">Ingresar como Invitado</button>
       <p>
-        No tienes una cuenta? <a>Regístrate</a>
+        No tienes una cuenta? <a [routerLink]="['/register']">Regístrate</a>
       </p>
     </div>
   </form>

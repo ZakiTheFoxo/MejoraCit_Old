@@ -1,11 +1,24 @@
 <div class="login">
   <form class="custom-form" method="post">
     <input
+      type="text"
+      [(ngModel)]="nombre"
+      name="nombre"
+      placeholder="Nombre de Usuario"
+      required="required"
+    />
+    <input
       type="email"
       [(ngModel)]="email"
       name="email"
-      placeholder="Correo"
+      placeholder="Correo Electrónico"
       required="required"
+    />
+    <input
+      type="email"
+      [(ngModel)]="email"
+      name="email"
+      placeholder="Correo Electrónico"
     />
     <input
       type="password"
@@ -14,6 +27,24 @@
       placeholder="Contraseña"
       required="required"
     />
+    <input
+      type="password"
+      [(ngModel)]="password2"
+      name="password2"
+      placeholder="Confirmar Contraseña"
+      required="required"
+    />
+    <div class="check">
+      <label>
+        <input
+          type="checkbox"
+          [(ngModel)]="check"
+          name="check"
+          required = "required"
+        />
+        Acepto los <a>Términos y Condiciones</a>
+      </label>
+    </div>
     <div class="buttons">
       <button type="submit" (click)="register()">Registrarse</button>
     </div>

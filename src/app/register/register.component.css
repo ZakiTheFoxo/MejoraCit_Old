@@ -4,7 +4,7 @@
 }
 
 .login {
-  margin: 10% 0;
+  margin: 0 0;
   padding: 0;
 }
 
@@ -18,7 +18,7 @@
 
 .custom-form input {
   display: block;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   width: 100%;
   outline: 0;
   border-width: 0 0 2px;
@@ -31,11 +31,30 @@
   border-color: #083F9D;
 }
 
+.check {
+  display: inline-flex;
+  width: 100% !important;
+}
+
+label {
+  text-transform: none;
+}
+
+label,input[type="checkbox"]{
+  display: inline-block !important;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  width: 20px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .buttons {
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  bottom: 10px;
+  position: relative;
+  margin: 2em 0;
+  padding: 0;
 }
 
 .buttons button {
