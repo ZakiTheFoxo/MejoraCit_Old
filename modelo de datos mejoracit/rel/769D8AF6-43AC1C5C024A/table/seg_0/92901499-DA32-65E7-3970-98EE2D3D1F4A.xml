@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92901499-DA32-65E7-3970-98EE2D3D1F4A" name="LOCALIZACION">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>142A49D1-B1F8-1FA7-8DBF-ECC08DDE9AA1</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="43F87ECE-E430-ECB4-83F0-79D4D891800E">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>CA6DDBA9-FE21-C9FD-155B-F43ADAD803D0</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Latitud" id="E4FD9369-9FAE-9DE2-7575-17471213001F">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>DDEC1FB2-FC82-F51F-0517-0E71A24FF2C3</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,3,8</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Longitud" id="DCBE6BE1-20C2-B338-FC2C-98631BD310A0">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>DC5F158B-B202-A571-AB49-D11161408213</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,2,8</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Colonia" id="B3DF6A22-9F35-5049-D44E-DC46DB85F05C">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>5334832E-2737-FAE2-9985-733C3132CD09</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Calle" id="DA717461-ABB7-ECAA-D374-4BAEF2D0DCC2">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>C3BBACEE-C9B4-E147-8134-7B814C4533D6</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F3A5F78-97BA-186F-612E-4E0AC27DEC50" name="LOCALIZACION_PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>B11A5E1A-8371-58E8-54E4-D3CFAB545FED</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43F87ECE-E430-ECB4-83F0-79D4D891800E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

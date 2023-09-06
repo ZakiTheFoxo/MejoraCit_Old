@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0372E7B5-6834-AB6E-8C7A-71D871A21E69" containerWithKeyObject="4FD0270D-388F-B770-BD07-0827446A2295" localFKIndex="D4308620-DF03-54C6-2332-1DC07AE75DB6" name="NUEVO_REPORTE_REPORTE_USUARIO_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>18160F3C-38B8-46F5-7077-75D50123086D</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<referredTableLongName>REPORTE_USUARIO</referredTableLongName>
+<arc>F2AE9A92-62C0-C1C0-5CB3-CA128DAC16EB</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7EB75151-40C9-5200-7675-1B4F2821ED67</referredTableID>
+<keyObject>99F987CD-442B-5F5F-4093-E418EB2E1FBB</keyObject>
+<referredKeyID>99F987CD-442B-5F5F-4093-E418EB2E1FBB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_usuario,ID_reporte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,43 +1,45 @@
 <div class="reportes" *ngFor="let reporte of reportes">
   <a
-    [title]="reporte.name + ' description'"
-    [routerLink]="['/reportes', reporte.id]">
-    <h2>
-      {{ reporte.name }}
-    </h2>
+  [title]="reporte.name + ' description'"
+  [routerLink]="['/reportes', reporte.id]">
 
-    <p class="description">
-      {{ reporte.description }}
-    </p>
+  <div class="container">
+      <div class="data">
+        <h2>
+          {{ reporte.name }}
+        </h2>
 
-    <div class="mapa">
-      <img src="assets/mapa.png" alt="">
+        <p class="description">
+          {{ reporte.description }}
+        </p>
+
+        <div *ngIf="reporte.status == 'Registrado'; then thenBlock else elseBlock"></div>
+        <ng-template #thenBlock>
+          <p class="status" style="background: #C20303"> {{ reporte.status }} </p>
+        </ng-template>
+        <ng-template #elseBlock>
+          <p class="status" style="background: #2BD639"> {{ reporte.status }} </p>
+        </ng-template>
+
+        <p class="veces_reportado">
+          Veces reportado: {{ reporte.veces_reportado }}
+        </p>
+      </div>
+
+      <div class="mapa">
+        <img src="assets/mapa.png" alt="">
+      </div>
+
     </div>
-
-    <div *ngIf="reporte.status == 'Registrado'; then thenBlock else elseBlock"></div>
-    <ng-template #thenBlock>
-      <p class="status" style="background: #C20303"> {{ reporte.status }} </p>
-    </ng-template>
-    <ng-template #elseBlock>
-      <p class="status" style="background: #2BD639"> {{ reporte.status }} </p>
-    </ng-template>
-
-    <p class="veces_reportado">
-      Veces reportado: {{ reporte.veces_reportado }}
-    </p>
-    <hr>
-  </a>
+    </a>
+  <hr>
 </div>
 <a [routerLink]="['/login']">Login test</a>
 
 <div style="height: 40px;"></div>
 
 <button onclick="alert('a')">
-  <div class="btnregistrar">
-    <div class="btnregistrar2">
       <h2>Registrar un nuevo problema</h2>
-    </div>
-  </div>
 </button>
 <!--
 Copyright Google LLC. All Rights Reserved.

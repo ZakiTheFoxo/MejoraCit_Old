@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="142A49D1-B1F8-1FA7-8DBF-ECC08DDE9AA1" name="LOCALIZACION">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-16 20:52:15 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="CA6DDBA9-FE21-C9FD-155B-F43ADAD803D0">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-16 20:56:30 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Latitud" id="DDEC1FB2-FC82-F51F-0517-0E71A24FF2C3">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-16 20:52:22 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,3,8</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Longitud" id="DC5F158B-B202-A571-AB49-D11161408213">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-16 20:55:26 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>8</dataTypeScale>
+<ownDataTypeParameters>,2,8</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Colonia" id="5334832E-2737-FAE2-9985-733C3132CD09">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-16 20:55:37 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Calle" id="C3BBACEE-C9B4-E147-8134-7B814C4533D6">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-16 20:55:59 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B11A5E1A-8371-58E8-54E4-D3CFAB545FED" name="LOCALIZACION PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-16 20:56:37 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA6DDBA9-FE21-C9FD-155B-F43ADAD803D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

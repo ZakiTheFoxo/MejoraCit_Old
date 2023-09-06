@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A05FF600-424D-F088-4B2C-621EF46B9D6F" name="REPORTE">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:18:03 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>rpt</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="4480C88C-F7C8-6E16-0EAD-FAC8A6638FE7">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:20:44 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Folio" id="A2C422CD-9BCD-FB15-B5DF-65F366176865">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-07 23:08:17 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria" id="93CB23D7-71A4-E5A0-BC58-8406294B4C5F">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:20:59 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estatus" id="301952A6-F16A-5F9A-1F3A-DFE413E312D5">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:29:32 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Veces_reportado" id="5C3609EA-815A-84FE-6B94-99D315C91633">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:30:33 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_primer_reporte" id="313C9079-EA8D-B886-72B1-ECA14B6502F5">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:36:29 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripcion" id="0586CA05-CA20-EF7A-275D-7E004199B010">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:23:40 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Imagen" id="529C831B-6394-B69B-DB8B-F11C35D82F6E">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:28:53 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="473FA317-6DE8-7E11-F645-7ADD95FEAF03">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-16 20:58:59 UTC</createdTime>
+<generatorID>FB63C8DF-EF95-B1FC-3D78-2F6A4EDD3112</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<referedAttribute>CA6DDBA9-FE21-C9FD-155B-F43ADAD803D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="C9C27FD7-153E-27F0-E28F-C25B6E97DD7F">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:18:11 UTC</createdTime>
+<generatorID>7F48006E-53D5-B4A2-7F05-74601B9038FD</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<referedAttribute>798681C7-439F-ADBE-1A0B-AFD70382E8C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Folio1" id="4A8C8AB7-F744-BC2F-2E4D-E27087DA2FBA">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:18:11 UTC</createdTime>
+<generatorID>7F48006E-53D5-B4A2-7F05-74601B9038FD</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<referedAttribute>45F48C33-EABA-B99A-CEF6-FF229987E93E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID3" id="1B02AA6E-A79B-ECFD-F39A-3952F76DFD0E">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:22:50 UTC</createdTime>
+<generatorID>83578ABD-8444-22E8-CBA0-DA4EB0DC7A92</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C47F7111-635C-A522-EC17-0AE0ECC1824C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00726CCD-6433-6343-54D2-47C532C51797" name="Reportes PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:20:57 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4480C88C-F7C8-6E16-0EAD-FAC8A6638FE7</attributeRef>
+<attributeRef>A2C422CD-9BCD-FB15-B5DF-65F366176865</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

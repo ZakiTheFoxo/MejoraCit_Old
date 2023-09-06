@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E3467A2-B444-ADEA-DA89-B1A56F352482" name="USUARIO_REGISTRADO">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>5E84A46E-7DC5-76D9-29AD-102FFA211F41</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<abbreviation>usr</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="B6010590-243C-1DB5-15FD-3E25507C8D02">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>2EBB6311-79C4-68EA-0169-5602C1D142D0</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="330020E5-2016-046D-0606-22691F225D4F" referredColumn="48E8E76C-0133-C80D-F01E-DDDF66203A3F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3507543-DBC3-B69D-C024-81DEF61EEA8D" name="USUARIO_REGISTRADO_PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>8956740E-3CED-D369-ED0C-969D82A97448</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6010590-243C-1DB5-15FD-3E25507C8D02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF7F3563-B21F-20D2-09B1-794D1598726F" name="USUARIO_REGISTRADO_PKv1">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>5D3BF079-F9BF-811B-9585-DB639BB85623</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="510589E7-178F-3A74-9A77-609A0C81CFC6" name="USUARIO_REGISTRADO_USUARIO_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>4D04C14D-25E1-2C41-C9D0-D7A5857265EC</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6010590-243C-1DB5-15FD-3E25507C8D02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

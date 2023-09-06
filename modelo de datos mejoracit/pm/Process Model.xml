@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="20EA3429-0634-0C92-DE95-54AAEA0F0D8D">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 20:38:42 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

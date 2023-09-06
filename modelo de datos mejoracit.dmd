@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo de datos mejoracit" id="A378C8E1-D8C9-E605-3979-AF2B463235DF" version="3.5">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 20:38:42 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A378C8E1-D8C9-E605-3979-AF2B463235DF</designId>
+</OSDM_Design>

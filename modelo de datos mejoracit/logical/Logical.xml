@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F14EAFAF-1E82-F1FD-A0F0-73C587785205" mainViewID="9B8CE03E-3FF3-49DE-21A7-7B0AE2835050">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 20:38:42 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

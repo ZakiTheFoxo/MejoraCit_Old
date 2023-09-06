@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1C27914-8CBB-3BD3-43CD-966A3C7933E5" name="GUEST">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>D1D02F57-8907-1DA6-A43B-6CE86E9FF41F</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CAEC8368-19D8-FA55-FA10-3AF85EA2C3E7">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>C47F7111-635C-A522-EC17-0AE0ECC1824C</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Veces_reportado_ultimas_24_h" id="BD810522-548D-4391-E368-A5B06A7A6A91">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>79F01632-668E-14BD-F802-9A91AB65D3FA</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C8CED39-C922-A211-7609-CF4CF66B281F" name="GUEST_PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>DD1E21ED-C9FF-08B0-1C72-E08F740FC6A5</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAEC8368-19D8-FA55-FA10-3AF85EA2C3E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

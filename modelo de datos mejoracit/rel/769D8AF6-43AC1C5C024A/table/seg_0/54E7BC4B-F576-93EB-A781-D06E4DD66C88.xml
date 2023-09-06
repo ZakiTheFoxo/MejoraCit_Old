@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54E7BC4B-F576-93EB-A781-D06E4DD66C88" name="REPORTE">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>A05FF600-424D-F088-4B2C-621EF46B9D6F</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<abbreviation>rpt</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="77A8CC4A-5FA7-8232-2058-495A435CCF58">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>4480C88C-F7C8-6E16-0EAD-FAC8A6638FE7</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Folio" id="C269715A-7B86-7C45-D8CD-A506ED8661F7">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>A2C422CD-9BCD-FB15-B5DF-65F366176865</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria" id="E35982EB-0646-A484-2C75-365C5468690C">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>93CB23D7-71A4-E5A0-BC58-8406294B4C5F</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estatus" id="1602AFA3-E1EB-4DE0-36C7-A66F80DABAB9">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>301952A6-F16A-5F9A-1F3A-DFE413E312D5</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Veces_reportado" id="921A9541-7A4B-BC51-921A-A795A082DF8E">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>5C3609EA-815A-84FE-6B94-99D315C91633</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fecha_primer_reporte" id="28B10187-3A64-C9E0-1753-4DB9E9A94BB1">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>313C9079-EA8D-B886-72B1-ECA14B6502F5</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="8765A5D1-EB34-D347-024E-1D2A10C0DC6C">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>0586CA05-CA20-EF7A-275D-7E004199B010</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Imagen" id="AC669FB9-6DEF-9F71-BECD-14C7CDCC3282">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>529C831B-6394-B69B-DB8B-F11C35D82F6E</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALIZACION_ID" id="F03D42F0-F414-0E35-0F12-F6489B973336">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>473FA317-6DE8-7E11-F645-7ADD95FEAF03</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C54A566E-69E9-972B-586E-31B0D7BC8FC3" referredColumn="43F87ECE-E430-ECB4-83F0-79D4D891800E"/>
+</associations>
+</Column>
+<Column name="HISTORIAL_REPORTES_ID" id="F00E7412-E89D-0B3A-9E6A-06A465AF1127">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>C9C27FD7-153E-27F0-E28F-C25B6E97DD7F</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3603CF1B-A83E-BF7F-3373-AA5C87748128" referredColumn="A4C874F8-DB5B-5427-B5B6-9F85132F51DC"/>
+</associations>
+</Column>
+<Column name="HISTORIAL_REPORTES_Folio" id="DA3C9CB8-923D-261B-7A73-143C280E27B0">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>4A8C8AB7-F744-BC2F-2E4D-E27087DA2FBA</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3603CF1B-A83E-BF7F-3373-AA5C87748128" referredColumn="E01C519E-BA85-6C4B-5321-47F0CB025898"/>
+</associations>
+</Column>
+<Column name="ID3" id="0CA08FCE-C1E9-2ACF-B20F-C00E1735A5F6">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>1B02AA6E-A79B-ECFD-F39A-3952F76DFD0E</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D1CC0E1-72F6-AFD1-DB29-F18C914D8FF1" name="REPORTE_PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>00726CCD-6433-6343-54D2-47C532C51797</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77A8CC4A-5FA7-8232-2058-495A435CCF58"/>
+<colUsage columnID="C269715A-7B86-7C45-D8CD-A506ED8661F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DD68BA4-BAD5-9DF9-B15F-07DD3509E73F" name="REPORTE_LOCALIZACION_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>FB63C8DF-EF95-B1FC-3D78-2F6A4EDD3112</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F03D42F0-F414-0E35-0F12-F6489B973336"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3CE87FD-24CC-3D88-9ADB-870787C9E36A" name="REPORTE_HISTORIAL_REPORTES_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>7F48006E-53D5-B4A2-7F05-74601B9038FD</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F00E7412-E89D-0B3A-9E6A-06A465AF1127"/>
+<colUsage columnID="DA3C9CB8-923D-261B-7A73-143C280E27B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

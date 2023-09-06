@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-  z-index: inherit;
+  z-index: 9999;
 }
 
 .bar2 {
@@ -35,10 +35,6 @@ app-top-bar h2 {
   color: white;
   margin: 16px;
   text-decoration: underline;
-}
-
-app-top-bar {
-  z-index: 1;
 }
 
 h2 {

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89501FB4-C3EE-DCC4-4AAE-BCDF981E8121" containerWithKeyObject="7EB75151-40C9-5200-7675-1B4F2821ED67" localFKIndex="51EF05B4-4007-DCCB-75B0-7FB619D0B86D" name="REPORTE_USUARIO_REPORTE_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>24AAFBB8-773D-5A29-C9AF-4976857718CD</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<referredTableLongName>REPORTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>54E7BC4B-F576-93EB-A781-D06E4DD66C88</referredTableID>
+<keyObject>5D1CC0E1-72F6-AFD1-DB29-F18C914D8FF1</keyObject>
+<referredKeyID>5D1CC0E1-72F6-AFD1-DB29-F18C914D8FF1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID,Folio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,5 +1,5 @@
 .description {
-  max-width: 75%;
+  width: 90%;
 }
 
 .status {
@@ -8,39 +8,67 @@
   text-align: center;
   width: fit-content;
   color: #fff;
-  width: 200px;
+  width: 90%;
   padding: 5px;
   border: 1;
 }
 
 .reportes {
-  margin-left: 30px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: auto;
 }
 
-hr {
-  margin-left: -20px;
-  margin-right: 10px;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
 }
 
-.veces_reportado {
-  margin-left: -20px;
+.data {
+  width: 100%;
 }
 
 .mapa{
-  position: absolute;
-  height: 125px;
-  width: 125px;
-  right: 30px;
-  background-color: #fff;
-  transform: translateY(-50%);
-  border-style: solid;
+  width: 122px;
+  height: 122px;
+  border: 1px solid #000;
   border-radius: 30px;
-  border-width: 1px;
-  z-index: 0;
 }
 
 img {
-  width: 123px;
-  height: 123px;
+  width: 120px;
+  height: 120px;
   border-radius: 30px;
+}
+
+
+
+/* Boton reportar */
+button {
+  position: fixed;
+  bottom: 0;
+  left: 2%;
+  right: 2%;
+  width: 96%;
+  height: 60px;
+  background-color: #083F9D;
+  border-radius: 20px 20px 0 0;
+}
+
+button h2{
+  position: fixed;
+  color: white;
+  bottom: -15px;
+  width: 92%;
+  right: 4%;
+  left: 4%;
+  height: 55px;
+  background-color: #1ABFC2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 20px 0 0;
 }

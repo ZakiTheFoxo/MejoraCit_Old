@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7EB75151-40C9-5200-7675-1B4F2821ED67" name="REPORTE_USUARIO">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>D810627A-E023-2795-D4AE-38198B22861C</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_reporte" id="89EFE26A-9263-80DF-6662-CEAA64DE0D49">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>EAAC4FB4-1EF8-0F29-9541-F5B85C94A4FD</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_usuario" id="7213010E-1FE0-9490-BAC1-70D555DD32E3">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>A2F81857-D76B-4728-3200-BC88C3A913FE</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_ID" id="B8D57A5A-B80D-0D48-C13F-BA39A0128B01">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>453DC24D-7789-BF54-DE44-E37087B4D75B</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEC42CB8-DA73-FCD3-7462-C9337D8A13A3" referredColumn="48E8E76C-0133-C80D-F01E-DDDF66203A3F"/>
+</associations>
+</Column>
+<Column name="REPORTE_ID" id="38085A87-5957-8824-56F3-92E6F328B83D">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>DF0986D4-C430-0D7A-098E-7AB401A4E2E8</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89501FB4-C3EE-DCC4-4AAE-BCDF981E8121" referredColumn="77A8CC4A-5FA7-8232-2058-495A435CCF58"/>
+</associations>
+</Column>
+<Column name="REPORTE_Folio" id="F3F39DEB-097F-8BE3-0A1F-DB27B3B9C7B8">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>76CB9AA3-D1CF-A17D-2394-CEA85A3B5B29</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89501FB4-C3EE-DCC4-4AAE-BCDF981E8121" referredColumn="C269715A-7B86-7C45-D8CD-A506ED8661F7"/>
+</associations>
+</Column>
+<Column name="GUEST_ID" id="2A43CD09-BAE4-6A2D-405F-37A89B79A34E">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>476E3A92-39CC-A382-95E9-AC4AE139C7AB</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="000B5ACE-24E6-781F-E4A0-0EE198BF042A" referredColumn="CAEC8368-19D8-FA55-FA10-3AF85EA2C3E7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99F987CD-442B-5F5F-4093-E418EB2E1FBB" name="REPORTE_USUARIO_PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>73E8D43E-999F-1CEA-8AF5-81862C0C6774</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7213010E-1FE0-9490-BAC1-70D555DD32E3"/>
+<colUsage columnID="89EFE26A-9263-80DF-6662-CEAA64DE0D49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF9C5D1E-A377-8FEF-2E3B-825DCCFAF401" name="REPORTE_USUARIO_USUARIO_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>0093BDCD-593F-1298-0AAA-563DBCC16D53</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8D57A5A-B80D-0D48-C13F-BA39A0128B01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51EF05B4-4007-DCCB-75B0-7FB619D0B86D" name="REPORTE_USUARIO_REPORTE_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>24AAFBB8-773D-5A29-C9AF-4976857718CD</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38085A87-5957-8824-56F3-92E6F328B83D"/>
+<colUsage columnID="F3F39DEB-097F-8BE3-0A1F-DB27B3B9C7B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F465C45F-4AE9-3350-66BD-D463EA36BB43" name="REPORTE_USUARIO_GUEST_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>83578ABD-8444-22E8-CBA0-DA4EB0DC7A92</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A43CD09-BAE4-6A2D-405F-37A89B79A34E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1624374-1B31-6A8F-0733-31D04E3074F6" name="ADMINISTRADOR">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>B3035CAC-7D88-4BE1-5FC0-E6A405CDBB73</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="CC8A386F-AAC5-5968-80AF-878546CEE0D4">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>2EBB6311-79C4-68EA-0169-5602C1D142D0</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51BF83B9-1269-621D-4EC5-17788585754C" referredColumn="48E8E76C-0133-C80D-F01E-DDDF66203A3F"/>
+</associations>
+</Column>
+<Column name="Nombre" id="F37B1328-E2ED-8EBB-AD3E-BD88011E78EB">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>7FAFB1DA-5D12-420F-0A61-61036841466C</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="FC2B3268-D98B-6822-AAAA-337026A55B32">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>8211F02F-47FE-A5E0-3431-F5088BAF981F</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADMINISTRADOR_ID" id="CB6FFA19-59AD-E2B2-1C35-587DACF60D99">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>99CA2C7D-D865-5485-41BD-AA1809DDBF3A</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DAC4A75-C27F-0255-CF24-D1D3842B725E" referredColumn="CC8A386F-AAC5-5968-80AF-878546CEE0D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32B3424D-B595-A8A4-11A2-9684E05B29CF" name="ADMINISTRADOR_PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>8956740E-3CED-D369-ED0C-969D82A97448</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC8A386F-AAC5-5968-80AF-878546CEE0D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D11B9AAA-F2F0-F757-100D-AFD965DF3EED" name="ADMINISTRADOR_USUARIO_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>D81B9312-7CEB-C8EA-1220-9FCFA2A03A7D</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC8A386F-AAC5-5968-80AF-878546CEE0D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3B165FC-4712-97CF-4287-BA36293FD7B1" name="ADMINISTRADOR_ADMINISTRADOR_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>93BFE091-5826-9148-D9F2-BD37DA06D547</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB6FFA19-59AD-E2B2-1C35-587DACF60D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

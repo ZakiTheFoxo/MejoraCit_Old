@@ -1,10 +1,11 @@
 export interface Reportes {
-  id: number;
-  name: string;
-  type: string;
-  description: string;
-  status: string;
-  veces_reportado: number;
+  id: number,
+  name: string,
+  type: string,
+  description: string,
+  status: string,
+  veces_reportado: number,
+  imagen: string
 }
 
 export const reportes = [
@@ -14,7 +15,8 @@ export const reportes = [
     type: 'Bache',
     description: 'Bache en la calle 5 de mayo, lleva más de 4 semanas que no lo arreglan y ya van varios carror que se les vuelan las llantas',
     status: 'Registrado',
-    veces_reportado: 2
+    veces_reportado: 2,
+    imagen: 'bache-gz.jpg'
   },
   {
     id: 2,
@@ -22,7 +24,8 @@ export const reportes = [
     type: 'Fuga',
     description: 'Fuga de agua sin arreglar',
     status: 'Registrado',
-    veces_reportado: 2
+    veces_reportado: 2,
+    imagen: ''
   },
   {
     id: 3,
@@ -30,7 +33,8 @@ export const reportes = [
     type: 'Bache',
     description: 'Bache en la calle 13 poniente',
     status: 'Solucionado',
-    veces_reportado: 2
+    veces_reportado: 2,
+    imagen: 'bache-gz.jpg'
   },
   {
     id: 4,
@@ -38,7 +42,8 @@ export const reportes = [
     type: 'Bache',
     description: 'Bache en la calle 5 de mayo',
     status: 'Registrado',
-    veces_reportado: 2
+    veces_reportado: 2,
+    imagen: ''
   },
   {
     id: 5,
@@ -46,7 +51,8 @@ export const reportes = [
     type: 'Fuga',
     description: 'Fuga de agua sin arreglar',
     status: 'Registrado',
-    veces_reportado: 2
+    veces_reportado: 2,
+    imagen: ''
   },
   {
     id: 6,
@@ -54,7 +60,8 @@ export const reportes = [
     type: 'Bache',
     description: 'Bache en la calle 13 poniente',
     status: 'Solucionado',
-    veces_reportado: 2
+    veces_reportado: 2,
+    imagen: ''
   },
 ];
 

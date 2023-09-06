@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8D39D53-FFAD-96E8-D004-D7F7AB67939F" name="USUARIO_GOBIERNO">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>85C8AB34-DE3E-0A20-B599-8CBFF2E0D8D2</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="26AB41C9-495D-8E59-BB9D-3103B77663CC">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>2EBB6311-79C4-68EA-0169-5602C1D142D0</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CA9009D-9A2D-EDD7-5534-60028714717A" referredColumn="48E8E76C-0133-C80D-F01E-DDDF66203A3F"/>
+</associations>
+</Column>
+<Column name="Nombre" id="A153A222-0F0C-22C3-38AA-0675D4AF84DE">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>AF1BE577-8D71-F7F2-725A-BBFD6F6323A4</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="8419B17E-68AA-58FE-AC9F-8AAFCC8DDFC3">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>CAB6613A-9A6D-43D3-9A73-C85954FC7905</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F30E557C-C87C-B0E6-72CB-2FF1C137D4E6" name="USUARIO_GOBIERNO_PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>8956740E-3CED-D369-ED0C-969D82A97448</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26AB41C9-495D-8E59-BB9D-3103B77663CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8C81AC8-7111-D222-12A2-65AA0A687B05" name="USUARIO_GOBIERNO_USUARIO_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>07F13A72-BECB-40D0-8B9A-372C89B6BCB8</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26AB41C9-495D-8E59-BB9D-3103B77663CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="5D91F065-4D39-51F0-1304-8BB86573D4BF" name="FKArc_2">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>F1B4D19E-2B5D-F5D5-F33D-0276E9AB56D8</table>
+<fkeys>
+<fkeyID>6CA9009D-9A2D-EDD7-5534-60028714717A</fkeyID>
+<fkeyID>330020E5-2016-046D-0606-22691F225D4F</fkeyID>
+<fkeyID>51BF83B9-1269-621D-4EC5-17788585754C</fkeyID>
+</fkeys>
+</FKArc>

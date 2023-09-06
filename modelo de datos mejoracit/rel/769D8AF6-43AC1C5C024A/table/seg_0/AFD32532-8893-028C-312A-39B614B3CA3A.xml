@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFD32532-8893-028C-312A-39B614B3CA3A" name="ESTATUS_ACTUALIZADO">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>33E8D68C-425F-2EEF-0080-26E4540EB2FD</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_reporte" id="716D6441-2EC5-9381-6D64-07919EBF699D">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>EAAC4FB4-1EF8-0F29-9541-F5B85C94A4FD</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F169A16E-9B64-C725-8B4A-AAE17BB1F0CB" referredColumn="89EFE26A-9263-80DF-6662-CEAA64DE0D49"/>
+</associations>
+</Column>
+<Column name="ID_usuario" id="C6C36B88-908E-70F8-B9D1-69D79E4A37B1">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>A2F81857-D76B-4728-3200-BC88C3A913FE</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F169A16E-9B64-C725-8B4A-AAE17BB1F0CB" referredColumn="7213010E-1FE0-9490-BAC1-70D555DD32E3"/>
+</associations>
+</Column>
+<Column name="Estatus" id="CF1A8EA3-C763-22F7-3F53-2EEA226019A0">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>3F1B7D37-6042-B71D-8CEB-C759F34D2F08</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53937BB9-B8BA-DE37-7174-9A31124EF50C" name="ESTATUS_ACTUALIZADO_PK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>73E8D43E-999F-1CEA-8AF5-81862C0C6774</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6C36B88-908E-70F8-B9D1-69D79E4A37B1"/>
+<colUsage columnID="716D6441-2EC5-9381-6D64-07919EBF699D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B09F89AF-331A-FD70-A8A1-EE0721DD30FC" name="ESTATUS_ACTUALIZADO_REPORTE_USUARIO_FK">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-23 13:26:33 UTC</createdTime>
+<generatorID>C4C38B2E-BD94-6BA9-4A39-4C42C52E0F65</generatorID>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6C36B88-908E-70F8-B9D1-69D79E4A37B1"/>
+<colUsage columnID="716D6441-2EC5-9381-6D64-07919EBF699D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

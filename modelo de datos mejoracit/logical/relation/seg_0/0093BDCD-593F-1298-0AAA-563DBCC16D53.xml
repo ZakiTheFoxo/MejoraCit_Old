@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="0093BDCD-593F-1298-0AAA-563DBCC16D53">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 21:34:50 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<engineerTo>
+<item key="769D8AF6-B168-4D3F-B0E1-43AC1C5C024A" value="true"/>
+</engineerTo>
+<sourcePk>8956740E-3CED-D369-ED0C-969D82A97448</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>hace</nameOnSource>
+<nameOnTarget>hecho por</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B667F6AE-C750-7759-49ED-406F5E38BC91</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D810627A-E023-2795-D4AE-38198B22861C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

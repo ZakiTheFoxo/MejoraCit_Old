@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B21D6A64-20AA-3955-1FE8-193E0E5B1E17">
+<createdBy>Pippis</createdBy>
+<createdTime>2022-11-03 20:38:43 UTC</createdTime>
+<ownerDesignName>modelo de datos mejoracit</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
