@@ -1,10 +1,11 @@
 import { Component, Injectable, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { Reportes, reportes } from '../reportes';
+import { Reportes } from '../reportes';
+import { CasesService } from '../services/cases.service';
 
 @Component({
-  selector: 'app-case-details',
+  selector: 'app-casea-details',
   templateUrl: './case-details.component.html',
   styleUrls: ['./case-details.component.css']
 })
@@ -12,15 +13,16 @@ export class CaseDetailsComponent implements OnInit {
 
   reporte: Reportes | undefined;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(
+    private casesService: CasesService,
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit(): void {
-    // First get the report id from the current route.
-    const routeParams = this.route.snapshot.paramMap;
-    const reporteIdFromRoute = Number(routeParams.get('id'));
-
-    // Find the report that correspond with the id provided in route.
-    this.reporte = reportes.find(reporte => reporte.id === reporteIdFromRoute);
+    const id = this.route.snapshot.paramMap.get('id');
+    this.casesService.getCase(Number(id)).subscribe((cases: Reportes)=>{
+      this.reporte = cases;
+    })
   }
 
 }

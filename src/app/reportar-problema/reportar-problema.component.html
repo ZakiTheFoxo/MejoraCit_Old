@@ -1,3 +1,5 @@
+<p class="title">Verifica primero si no se ha reportado antes</p>
+<hr/>
 <div class="reportes" *ngFor="let reporte of reportes">
   <a
   [title]="reporte.name + ' description'"
@@ -34,17 +36,11 @@
     </a>
   <hr>
 </div>
-<a [routerLink]="['/login']">Login test</a>
-<!-- <div>
 
-  <p>Hello! Your IP address is: {{ipAddress}}. You live in {{city}} in {{region}}, {{country}}</p>
+<div style="height: 60px;"></div>
 
-</div> -->
-
-<div style="height: 40px;"></div>
-
-<button [routerLink]="['/report']">
-  Registrar un nuevo problema
+<button [routerLink]="['/reportnew']">
+      No se encuentra en la lista
 </button>
 <!--
 Copyright Google LLC. All Rights Reserved.

@@ -44,10 +44,12 @@ img {
   border-radius: 30px;
 }
 
-
+p.title {
+  margin: 0;
+  padding: 0 10px;
+}
 
 /* Boton reportar */
-
 button{
   position: fixed;
   color: white;

@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.section.check {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+button{
+  position: relative;
+  color: white;
+  width: 92%;
+  right: 4%;
+  left: 4%;
+  height: 55px;
+  background-color: #1ABFC2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  font-size: 20px;
+  border: 0;
+}

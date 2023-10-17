@@ -1,0 +1,39 @@
+<form [formGroup]="createReportForm" (ngSubmit)="addReport()">
+  <div class="container">
+    <div class="section">
+      Selecciona el tipo de problema:
+      <select name="problema">
+
+      </select>
+    </div>
+
+    <div class="section">
+      Descripción:
+      <textarea name="descripcion" rows="4"></textarea>
+    </div>
+
+    <div class="section">
+      Localización:
+      <img src="../../assets/mapa.png">
+    </div>
+
+    <div class="section">
+      Imagenes: (Opcional)
+      <input type="file" name="pic" accept="image/*">
+    </div>
+
+    <div class="section check">
+      <label for="correo">Me gustaría recibir actualizaciones por correo electrónico.</label>
+      <input type="checkbox" name="correo" value="correo">
+    </div>
+
+    <div class="section check">
+      <label for="sms">Me gustaría recibir actualizaciones por SMS.</label>
+      <input type="checkbox" name="sms" value="sms">
+    </div>
+  </div>
+
+  <button>
+    Reportar Problema
+  </button>
+</form>

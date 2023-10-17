@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { reportes } from '../reportes';
+import { Reportes } from '../reportes';
+import { CasesService } from '../services/cases.service';
 // import { HttpClient  } from '@angular/common/http';
 
 @Component({
@@ -9,12 +10,14 @@ import { reportes } from '../reportes';
   styleUrls: ['./main-page.component.css']
 })
 export class MainPageComponent implements OnInit {
-  reportes = reportes;
+  reportes: Reportes[] = [];
 
-  constructor() { }
+  constructor(private case_service: CasesService) { }
 
   ngOnInit(): void {
-
+    this.case_service.getAllCases().subscribe((res: any) => {
+      this.reportes = res;
+    });
   }
   // Esta funcion es para obtener la geolocalizacion del usuario
   // api_key = '41b8410e4a384faf8f38f6a1bb29162b';
