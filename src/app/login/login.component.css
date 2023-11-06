@@ -81,3 +81,10 @@ p {
 p a {
   float: none;
 }
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 0;
+  text-align: center;
+}

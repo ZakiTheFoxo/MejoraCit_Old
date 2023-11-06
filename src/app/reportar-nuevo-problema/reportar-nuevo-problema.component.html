@@ -3,7 +3,9 @@
     <div class="section">
       Selecciona el tipo de problema:
       <select name="problema">
-
+        <option value="bache">Bache</option>
+        <option value="luz">Luz</option>
+        <option value="agua">Agua</option>
       </select>
     </div>
 
@@ -15,6 +17,7 @@
     <div class="section">
       Localización:
       <img src="../../assets/mapa.png">
+      <input type="hidden" name="localizacion">
     </div>
 
     <div class="section">
@@ -32,7 +35,9 @@
       <input type="checkbox" name="sms" value="sms">
     </div>
   </div>
-
+  <div class="error" *ngIf="error">
+    Debe llenar todos los campos obligatorios
+  </div>
   <button>
     Reportar Problema
   </button>

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Reportes } from '../reportes';
 import { CasesService } from '../services/cases.service';
+import { Router } from '@angular/router';
 // import { HttpClient  } from '@angular/common/http';
 
 @Component({
@@ -12,12 +13,19 @@ import { CasesService } from '../services/cases.service';
 export class MainPageComponent implements OnInit {
   reportes: Reportes[] = [];
 
-  constructor(private case_service: CasesService) { }
+  constructor(
+    private case_service: CasesService,
+    private router:Router
+    ) { }
 
   ngOnInit(): void {
     this.case_service.getAllCases().subscribe((res: any) => {
       this.reportes = res;
     });
+  }
+
+  details(id: number): void {
+    this.router.navigate(['reportes/', id]);
   }
   // Esta funcion es para obtener la geolocalizacion del usuario
   // api_key = '41b8410e4a384faf8f38f6a1bb29162b';

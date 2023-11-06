@@ -35,13 +35,11 @@
         Acepto los <a>Términos y Condiciones</a>
       </label>
     </div>
+    <div class="error" *ngIf="error">
+      Debe llenar todos los campos obligatorios
+    </div>
     <div class="buttons">
       <button type="submit">Registrarse</button>
     </div>
   </form>
-</div>
-
-<div class="" *ngFor="let user of users">
-  id: {{user.id}}
-  nombre: {{user.nombre}}
 </div>

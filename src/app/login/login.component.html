@@ -1,25 +1,28 @@
 <div class="login">
-  <form class="custom-form" method="post">
+  <form class="custom-form" [formGroup]="loginUserForm" (ngSubmit)="login()">
     <input
       type="email"
-      [(ngModel)]="email"
-      name="email"
+      formControlName="email"
       placeholder="Correo"
-      required="required"
     />
     <input
       type="password"
-      [(ngModel)]="password"
-      name="password"
+      formControlName="password"
       placeholder="Contraseña"
-      required="required"
     />
+    <div class="" *ngIf="((email?.invalid && email?.touched) || email?.dirty) && (password?.touched || password?.dirty)">
+      <div class="error" *ngIf="email?.errors?.['required'] && password?.errors?.['required']">
+        Debe de introducir ambos datos
+      </div>
+    </div>
+    <div class="error" *ngIf="error">
+      Correo o contraseña incorrectos
+    </div>
     <a [routerLink]="">Olvidé mi contraseña</a>
     <div class="buttons">
-      <!-- <button type="submit" (click)="login()">Iniciar Sesión</button> -->
-      <button type="submit" [routerLink]="['/home']">Iniciar Sesión</button>
-      <button type="submit" class="facebook" (click)="login_facebook()">Iniciar Sesión con Facebook</button>
-      <button type="submit" class="google" (click)="login_google()">Iniciar Sesión con Google</button>
+      <button type="submit" (click)="login()">Iniciar Sesión</button>
+      <!-- <button type="submit" class="facebook" (click)="login_facebook()">Iniciar Sesión con Facebook</button>
+      <button type="submit" class="google" (click)="login_google()">Iniciar Sesión con Google</button> -->
       <button type="submit" (click)="login_invitado()">Ingresar como Invitado</button>
       <p>
         No tienes una cuenta? <a [routerLink]="['/register']">Regístrate</a>

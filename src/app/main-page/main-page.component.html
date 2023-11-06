@@ -1,7 +1,5 @@
 <div class="reportes" *ngFor="let reporte of reportes">
-  <a
-  [title]="reporte.name + ' description'"
-  [routerLink]="['/reportes', reporte.id]">
+  <a [title]="reporte.name + ' description'" (click)="details(reporte.id)">
 
   <div class="container">
       <div class="data">
@@ -34,7 +32,6 @@
     </a>
   <hr>
 </div>
-<a [routerLink]="['/login']">Login test</a>
 <!-- <div>
 
   <p>Hello! Your IP address is: {{ipAddress}}. You live in {{city}} in {{region}}, {{country}}</p>

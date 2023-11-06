@@ -7,12 +7,14 @@ import { ReportarProblemaComponent } from './reportar-problema/reportar-problema
 import { ReportarNuevoProblemaComponent } from './reportar-nuevo-problema/reportar-nuevo-problema.component';
 import { SplashScreenComponent } from './splash-screen/splash-screen.component';
 import { ReportarFinalComponent } from './reportar-final/reportar-final.component';
+import { CaseDetailsComponent } from './case-details/case-details.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/splash', pathMatch: 'full' },
   { path: 'splash', component:SplashScreenComponent},
   { path: 'home', component:MainPageComponent },
   { path: 'login', component:LoginComponent},
+  { path: 'reportes/:id', component:CaseDetailsComponent},
   { path: 'register', component:RegisterComponent},
   { path: 'report', component:ReportarProblemaComponent},
   { path: 'reportnew', component:ReportarNuevoProblemaComponent},

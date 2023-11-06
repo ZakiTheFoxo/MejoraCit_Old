@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { UsersService } from '../services/users.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -8,6 +9,7 @@ import { UsersService } from '../services/users.service';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent {
+  error: boolean = false;
   users:any;
 
   registerUserForm = this.formBuilder.group({
@@ -21,7 +23,8 @@ export class RegisterComponent {
 
   constructor(
     private usersService: UsersService,
-    private formBuilder: FormBuilder
+    private formBuilder: FormBuilder,
+    private router: Router
   ) {
     this.getUsers();
   }
@@ -33,7 +36,7 @@ export class RegisterComponent {
   }
 
   addUser() {
-    if(this.registerUserForm.invalid) console.log("error");
+    if(this.registerUserForm.invalid) this.error = true;
 
     if(this.registerUserForm.invalid) return;
 
@@ -45,5 +48,7 @@ export class RegisterComponent {
     let newUser = {nombre, email, telefono, password};
 
     this.usersService.addUser(newUser);
+
+    this.router.navigate(['/login']);
   }
 }

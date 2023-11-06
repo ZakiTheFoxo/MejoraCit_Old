@@ -102,6 +102,13 @@ p a {
   float: none;
 }
 
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 0;
+  text-align: center;
+}
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -114,3 +121,6 @@ input[type=number] {
   appearance: none;
   -moz-appearance: textfield;
 }
+
+
+
