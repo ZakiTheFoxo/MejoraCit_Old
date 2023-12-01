@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
     const email = this.loginUserForm.get('email')?.value;
     const password = this.loginUserForm.get('password')?.value;
 
-    if(this.user_service.login(email, password)){
+    if(this.user_service.login(email, password)) {
       this.router.navigate(['/home']);
     } else {
       this.error = true;

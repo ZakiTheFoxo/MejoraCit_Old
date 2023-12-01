@@ -20,8 +20,8 @@
     "@angular/platform-browser-dynamic": "^16.2.4",
     "@angular/router": "^16.2.4",
     "@capacitor/android": "^4.7.1",
-    "@capacitor/cli": "^4.7.1",
-    "@capacitor/core": "^4.7.1",
+    "@capacitor/cli": "^4.8.1",
+    "@capacitor/core": "^4.8.1",
     "@capacitor/ios": "^4.7.1",
     "rxjs": "~7.5.0",
     "zone.js": "~0.13.1"

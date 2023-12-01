@@ -7,7 +7,6 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class UsersService {
-  // /* This will be the final code */
   // url:string = "";
 
   // constructor(private http: HttpClient) { }
@@ -27,6 +26,7 @@ export class UsersService {
   // }
 
   private users:Users[] = users;
+  private isLogged:boolean = false;
 
   constructor( ) { }
 
@@ -42,10 +42,30 @@ export class UsersService {
     let user = this.users.find(user => user.email == email && user.password == password);
     if(user) {
       localStorage.setItem('user', JSON.stringify(user));
+      localStorage.setItem('isLogged', this.isLogged ? "true" : "false");
+
+      if(user.admin) {
+        localStorage.setItem('admin', "true");
+      }
+      
       return true;
     }
     return false;
-}
+  }
+
+  isLoggedIn():boolean {
+    return localStorage.getItem('isLogged') == "true" ? true : false;
+  }
+
+  isAdmin():boolean {
+    return localStorage.getItem('user') == "admin" ? true : false;
+  }
+
+  logout() {
+    this.isLogged = false;
+    localStorage.removeItem('user');
+    localStorage.removeItem('isLogged');
+  }
 
   addUser(user: any): void {
     user.id = this.users.length + 1;
